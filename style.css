@@ -1,0 +1,58 @@
+html{
+}
+
+body {
+  /*background: url() no-repeat;*/
+  /*background-color:black;*/
+  background:url(./images/spacething.JPG) center top;
+  background-size: 1260px;
+  /*background-repeat: repeat-y;*/
+	width:900px;
+  	height: 13180px;
+  	margin: 0 auto;
+  position:relative;
+  overflow-y: hidden;
+}
+
+#rocket {
+	position:fixed;
+	height:430px;
+	width:180px;
+	margin-left:340px;
+	margin-top:200px;
+	z-index:2;
+}
+
+#birds {
+	position:absolute;
+	/*margin-top:-100px;*/
+  	left: 500px;
+  	height:130px;
+  	width:400px;
+  	z-index:1;
+}
+
+#plane {
+	position:absolute;
+	/*margin-top:-100px;*/
+  	left: 500px;
+  	height:40px;
+  	width:100px;
+  	z-index:1;
+}
+
+/*#top{
+	position:absolute;
+	margin-top:0px;
+}*/
+
+#bottom {
+	position:absolute;
+	margin-top:13000px;
+	margin-left:0px;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+	width:0px;
+}

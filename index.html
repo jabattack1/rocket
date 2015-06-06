@@ -1,0 +1,180 @@
+<html>
+<head>
+	<title></title>
+
+	<script src="jquery.js"></script>
+  <script src="scripts.js"></script>
+  <link rel="stylesheet" media="all" href="style.css" />
+  <link rel="stylesheet" media="all" href="animate.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+
+<style>
+
+#rotate {
+  position:absolute;left:-175px;top:10400px;width:1250px;height:300px;
+}
+
+#rotate IMG {
+  float:right;
+}
+
+#rotate1 {
+  position:absolute;left:-175px;top:6100px;width:1250px;height:300px;
+}
+
+#rotate1 IMG {
+  float:right;
+}
+
+
+</style>
+
+</head>
+<body onload="goToAnchor();">
+
+<script type="text/javascript">
+
+function goToAnchor() {
+  location.href = "index.html#bottom";
+}
+
+</script>
+
+<img src='./images/rocket.png' id='rocket'></img>
+<a id='top' href="#bottom"></a>
+
+<a id='bottom' href="#top">LAUNCH</a>
+
+
+<div id="rotate" >
+  <div>
+   <img src="http://i1301.photobucket.com/albums/ag119/jabattack1/birds_zpsnjh48g0h.gif" alt='birds' id='birds' />
+  
+  </div>
+ </div>
+
+<script type="text/javascript">
+var zxcRotate={
+
+ init:function(o){
+  var p=document.getElementById(o.ID),ms=o.Animate,b=p?p.getElementsByTagName('DIV')[0]:null,i=b?b.getElementsByTagName('IMG'):[],bc;
+  if (i[0]){
+   p.style.overflow='hidden';
+   b.style.position='absolute';
+   b.style.width='3000px';
+   o.bc=b.cloneNode(true);
+   o.bc.style.top='0px';
+   o.p=p;
+   o.lgth=i.length;
+   o.b=[b,'right'];
+   o.lst=i[o.lgth-1];
+   b.appendChild(o.bc);
+   o.ms=typeof(ms)=='number'&&ms>0?ms*1000:10000;
+   this.rotate(o);
+  }
+ },
+
+ rotate:function(o){
+  var i=o.p.getElementsByTagName('IMG'),sz,z0=0;
+  for (;z0<i.length;z0++){
+   i[z0].style.marginLeft=(o.p.offsetWidth-i[0].width*o.lgth)/o.lgth+'px';
+  }
+  sz=o.lst.width+o.lst.offsetLeft;
+  o.bc.style.left=sz+'px';
+  this.animate(o,o.b,-sz,0,new Date(),o.ms);
+ },
+
+
+ animate:function(o,a,f,t,srt,mS){
+  clearTimeout(a[4]);
+  var oop=this,ms=new Date()-srt,n=(t-f)/mS*ms+f;
+  if (isFinite(n)){
+   a[0].style[a[1]]=n+'px';
+  }
+  if (ms<mS){
+   a[4]=setTimeout(function(){ oop.animate(o,a,f,t,srt,mS); },10);
+  }
+  else {
+   a[0].style[a[1]]=t+'px';
+   oop.rotate(o);
+  }
+ }
+
+
+}
+
+zxcRotate.init({
+ ID:'rotate',
+ Animate:12
+});
+
+</script>
+
+<div id="rotate1" >
+  <div>
+   <img src='./images/plane.png' alt='plane' id='plane' />
+  
+  </div>
+ </div>
+
+<script type="text/javascript">
+var zxcRotate={
+
+ init:function(o){
+  var p=document.getElementById(o.ID),ms=o.Animate,b=p?p.getElementsByTagName('DIV')[0]:null,i=b?b.getElementsByTagName('IMG'):[],bc;
+  if (i[0]){
+   p.style.overflow='hidden';
+   b.style.position='absolute';
+   b.style.width='3000px';
+   o.bc=b.cloneNode(true);
+   o.bc.style.top='0px';
+   o.p=p;
+   o.lgth=i.length;
+   o.b=[b,'left'];
+   o.lst=i[o.lgth-1];
+   b.appendChild(o.bc);
+   o.ms=typeof(ms)=='number'&&ms>0?ms*1000:10000;
+   this.rotate(o);
+  }
+ },
+
+ rotate:function(o){
+  var i=o.p.getElementsByTagName('IMG'),sz,z0=0;
+  for (;z0<i.length;z0++){
+   i[z0].style.marginLeft=(o.p.offsetWidth-i[0].width*o.lgth)/o.lgth+'px';
+  }
+  sz=o.lst.width+o.lst.offsetLeft;
+  o.bc.style.left=sz+'px';
+  this.animate(o,o.b,-sz,0,new Date(),o.ms);
+ },
+
+
+ animate:function(o,a,f,t,srt,mS){
+  clearTimeout(a[4]);
+  var oop=this,ms=new Date()-srt,n=(t-f)/mS*ms+f;
+  if (isFinite(n)){
+   a[0].style[a[1]]=n+'px';
+  }
+  if (ms<mS){
+   a[4]=setTimeout(function(){ oop.animate(o,a,f,t,srt,mS); },10);
+  }
+  else {
+   a[0].style[a[1]]=t+'px';
+   oop.rotate(o);
+  }
+ }
+
+
+}
+
+zxcRotate.init({
+ ID:'rotate1',
+ Animate:12
+});
+
+</script>
+
+</body>
+</html>
