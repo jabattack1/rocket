@@ -6,7 +6,7 @@ body {
   /*background-color:black;*/
   background:url(./images/spacething.JPG) center top;
   background-size: 1260px;
-  /*background-repeat: repeat-y;*/
+  background-repeat: no-repeat;
 	width:900px;
   	height: 13180px;
   	margin: 0 auto;
