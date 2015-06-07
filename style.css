@@ -32,6 +32,15 @@ body {
   	z-index:1;
 }
 
+#birds1 {
+	position:absolute;
+	/*margin-top:-100px;*/
+  	left: 500px;
+  	height:80px;
+  	width:150px;
+  	z-index:1;
+}
+
 #plane {
 	position:absolute;
 	/*margin-top:-100px;*/
