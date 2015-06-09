@@ -14,6 +14,27 @@ body {
   /*overflow-y: hidden;*/
 }
 
+@font-face {
+    font-family: 'sabo'; /*a name to be used later*/
+    src: url(./images/Sabo-Filled.otf); /*URL to font*/
+}
+
+#go {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 50px;
+	margin-left:230px;
+	margin-top:12550px;
+	width:800px;
+	color:black;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+
+}
+
 #rocket {
 	position:fixed;
 	height:430px;
@@ -117,6 +138,105 @@ body {
 	position:absolute;
 	margin-top:0px;
 }*/
+
+#retro {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 80px;
+	margin-left:-100px;
+	color:#FF00B6;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+}
+
+#space {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 80px;
+	margin-left:240px;
+	color:#FF00B6;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+}
+
+#rocketword {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 80px;
+	margin-left:580px;
+	color:#FF00B6;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+}
+
+#three {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 280px;
+	margin-left:690px;
+	margin-top:12550;
+	color:black;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+    z-index: 7;
+}
+
+#two {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 280px;
+	margin-left:690px;
+	margin-top:12550;
+	color:black;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+    z-index: 7;
+}
+
+#one {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 280px;
+	margin-left:690px;
+	margin-top:12550;
+	color:black;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+    z-index: 7;
+}
+
+#gorocket {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 220px;
+	margin-left:600px;
+	margin-top:12600;
+	color:black;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+    z-index: 7;
+}
 
 #bottom {
 	position:absolute;
