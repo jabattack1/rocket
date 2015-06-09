@@ -11,7 +11,7 @@ body {
   	height: 13180px;
   	margin: 0 auto;
   position:relative;
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
 }
 
 #rocket {
@@ -57,6 +57,60 @@ body {
 	margin-left:600px;
 	margin-top:-300px;
 	overflow: scroll;
+}
+
+#puff4 {
+	position:absolute;
+	width:400px;
+	height:100px;
+	margin-left:240px;
+	margin-top:13050px;
+	z-index:4;
+}
+
+#puff2 {
+	position:absolute;
+	width:250px;
+	height:100px;
+	margin-left:300px;
+	margin-top:13000px;
+	z-index:4;
+}
+
+#puff1 {
+	position:absolute;
+	width:150px;
+	height:60px;
+	margin-left:360px;
+	margin-top:12970px;
+	z-index:4;
+}
+
+#puff1a {
+	position:absolute;
+	width:100px;
+	height:60px;
+	margin-left:380px;
+	margin-top:12920px;
+	z-index:4;
+}
+
+#smoke4 {
+	position:absolute;
+	width:400px;
+	height:100px;
+	margin-left:230px;
+	margin-top:13030px;
+	z-index:1;
+}
+
+#smoke4 {
+	position:absolute;
+	width:300px;
+	height:100px;
+	margin-left:240px;
+	margin-top:13030px;
+	z-index:1;
 }
 
 /*#top{
