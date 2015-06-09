@@ -240,6 +240,7 @@ body {
 
 #bottom {
 	position:absolute;
+	font-family: 'sabo';
 	margin-top:13000px;
 	margin-left:0px;
 	text-decoration: none;
@@ -247,7 +248,18 @@ body {
 	font-size: 15px;
 	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
 	width:0px;
+	outline:none;
 }
+
+#bottom:hover {
+	color:white;
+	text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
 
 #rights {
   font-family: 'sabo', Georgia, Times, serif;
