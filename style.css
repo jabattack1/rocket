@@ -11,7 +11,7 @@ body {
   	height: 13180px;
   	margin: 0 auto;
   position:relative;
-  /*overflow-y: hidden;*/
+  overflow-y: hidden;
 }
 
 @font-face {
