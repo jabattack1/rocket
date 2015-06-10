@@ -40,7 +40,8 @@ body {
 	height:430px;
 	width:180px;
 	margin-left:340px;
-	margin-top:160px;
+	margin-top:150px;
+	margin-bottom:auto;
 	z-index:2;
 }
 
@@ -245,7 +246,7 @@ body {
 	margin-left:0px;
 	text-decoration: none;
 	color:black;
-	font-size: 15px;
+	font-size: 25px;
 	/*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
 	width:0px;
 	outline:none;
