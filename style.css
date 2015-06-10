@@ -37,10 +37,11 @@ body {
 
 #rocket {
 	position:fixed;
+	top: 25%;
 	height:430px;
 	width:180px;
 	margin-left:340px;
-	margin-top:150px;
+	/*margin-top:150px;*/
 	margin-bottom:auto;
 	z-index:2;
 }
