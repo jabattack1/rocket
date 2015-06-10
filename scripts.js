@@ -18,6 +18,7 @@ var two = "<h1 id='two'>2</h1>";
 var one = "<h1 id='one'>1</h1>";
 var gorocket = "<h1 id='gorocket'>GO!</h1>";
 
+
 $(document).ready(function() {
 $( "#bottom" ).click(function() {
   console.log("CLICK!");
