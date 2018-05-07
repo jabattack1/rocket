@@ -18,9 +18,9 @@ var two = "<h1 id='two'>2</h1>";
 var one = "<h1 id='one'>1</h1>";
 var gorocket = "<h1 id='gorocket'>GO!</h1>";
 
-$('body').append(smoke3);
 
 $(document).ready(function() {
+  $('body').append(smoke3);
 $( "#bottom" ).click(function() {
   console.log("CLICK!");
   $("body").children("#go").remove();
