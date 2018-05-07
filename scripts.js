@@ -1,13 +1,13 @@
 console.log('launch!')
 
 
-var smoke4 ="<img src='./images/smoke4.png' class='animated fadeIn' id='smoke4'>";
-var smoke3 ="<img src='./images/smoke3.png' class='animated fadeIn' id='smoke3'>";
-var puff4 ="<img src='./images/puff4.png'  id='puff4'>";
-var puff3 ="<img src='./images/puff3.png'  id='puff3'>";
-var puff2 ="<img src='./images/puff2.png'  id='puff2'>";
-var puff1 ="<img src='./images/puff1.png'  id='puff1'>";
-var puff1a ="<img src='./images/puff1.png'  id='puff1a'>";
+var smoke4 ="<img src='https://i.imgur.com/DJIROws.png' title='source: imgur.com'  class='animated fadeIn' id='smoke4'>";
+var smoke3 ="<img src='https://i.imgur.com/RK2seF.png' title='source: imgur.com' class='animated fadeIn' id='smoke3'>";
+var puff4 ="<img src='https://i.imgur.com/gSQAN2b.png' title='source: imgur.com'  id='puff4'>";
+var puff3 ="<img src='https://i.imgur.com/MEM4cjk.png' title='source: imgur.com'  id='puff3'>";
+var puff2 ="<img src='https://i.imgur.com/KSouGOB.png' title='source: imgur.com'  id='puff2'>";
+var puff1 ="<img src='https://i.imgur.com/1ro8Amq.png' title='source: imgur.com'  id='puff1'>";
+var puff1a ="<img src='https://i.imgur.com/1ro8Amq.png' title='source: imgur.com' id='puff1a'>";
 
 var retro = "<h1 id='retro'>Retro</h1>";
 var space = "<h1 id='space'>Space</h1>";
