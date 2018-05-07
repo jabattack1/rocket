@@ -34,14 +34,7 @@ body {
     1px 1px 0 #ffffff; 
 }
 
-#smoke3 {
-	position:fixed;
-	top: 25%;
-	/*margin-left:340px;*/
-	/*margin-top:150px;*/
-	margin-bottom:auto;
-	z-index:2;
-}
+
 
 #rocket {
 	position:fixed;
