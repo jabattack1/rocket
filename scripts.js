@@ -20,9 +20,10 @@ var gorocket = "<h1 id='gorocket'>GO!</h1>";
 
 
 $(document).ready(function() {
-  $('body').append(smoke3);
+
 $( "#bottom" ).click(function() {
   console.log("CLICK!");
+  $('body').append(smoke3);
   $("body").children("#go").remove();
   $('body').append(three);
    setTimeout(function() {
