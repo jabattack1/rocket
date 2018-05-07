@@ -11,7 +11,7 @@ body {
   	height: 13180px;
   	margin: 0 auto;
   	position:relative;
-  	/*overflow-y: hidden;*/
+  	overflow-y: hidden;
 }
 
 @font-face {
@@ -34,7 +34,16 @@ body {
     1px 1px 0 #ffffff; 
 }
 
-
+#smoke3 {
+	position:fixed;
+	top: 25%;
+	height:430px;
+	width:180px;
+	margin-left:340px;
+	/*margin-top:150px;*/
+	margin-bottom:auto;
+	z-index:2;
+}
 
 #rocket {
 	position:fixed;

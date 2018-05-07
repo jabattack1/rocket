@@ -1,8 +1,7 @@
 console.log('launch!')
 
-
 var smoke4 ="<img src='https://i.imgur.com/DJIROws.png' title='source: imgur.com'  class='animated fadeIn' id='smoke4'>";
-var smoke3 ="<img src='https://i.imgur.com/RK2seF.png' title='source: imgur.com' class='animated fadeIn' id='smoke3'>";
+var smoke3 ="<img src='https://i.imgur.com/RRK2seF.png' title='source: imgur.com' class='animated fadeIn' id='smoke3'>";
 var puff4 ="<img src='https://i.imgur.com/gSQAN2b.png' title='source: imgur.com'  id='puff4'>";
 var puff3 ="<img src='https://i.imgur.com/MEM4cjk.png' title='source: imgur.com'  id='puff3'>";
 var puff2 ="<img src='https://i.imgur.com/KSouGOB.png' title='source: imgur.com'  id='puff2'>";
@@ -23,7 +22,7 @@ $(document).ready(function() {
 
 $( "#bottom" ).click(function() {
   console.log("CLICK!");
-  // $('body').append(smoke3);
+  $('body').append(smoke3);
   $('body').children("#go").remove();
   $('body').append(three);
    setTimeout(function() {
