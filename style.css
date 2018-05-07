@@ -7,11 +7,11 @@ body {
   	background:url(https://i.imgur.com/oMH4ioK.jpg) center top;
   	background-size: 1260px;
   	background-repeat: no-repeat;
-	width:800px;
+	width:900px;
   	height: 13180px;
   	margin: 0 auto;
   	position:relative;
-  	overflow-y: hidden;
+  	/*overflow-y: hidden;*/
 }
 
 @font-face {
