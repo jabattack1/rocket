@@ -32,7 +32,17 @@ body {
     1px -1px 0 #ffffff,
     -1px 1px 0 #ffffff,
     1px 1px 0 #ffffff; 
+}
 
+#smoke3 {
+	position:fixed;
+	top: 25%;
+	height:430px;
+	width:180px;
+	margin-left:340px;
+	/*margin-top:150px;*/
+	margin-bottom:auto;
+	z-index:2;
 }
 
 #rocket {
@@ -127,16 +137,7 @@ body {
 	z-index:1;
 }
 
-#smoke3 {
-	position:fixed;
-	top: 25%;
-	height:430px;
-	width:180px;
-	margin-left:340px;
-	/*margin-top:150px;*/
-	margin-bottom:auto;
-	z-index:2;
-}
+
 
 /*#top{
 	position:absolute;

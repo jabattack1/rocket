@@ -58,9 +58,9 @@ setTimeout(function() {
   $('body').append(puff1a);
 }, 1100);
 
-  setTimeout(function() {
+
   $('body').append(smoke3);
-}, 5100);
+
 
   setTimeout(function() {
   $('body').append(retro);
