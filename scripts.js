@@ -59,6 +59,10 @@ setTimeout(function() {
 }, 1100);
 
   setTimeout(function() {
+  $('body').append(smoke3);
+}, 2100);
+
+  setTimeout(function() {
   $('body').append(retro);
 }, 15100);
     setTimeout(function() {
