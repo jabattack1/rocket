@@ -128,11 +128,10 @@ body {
 }
 
 #smoke3 {
-	position:absolute;
+	position:relative;
 	width:300px;
 	height:100px;
 	margin-left:240px;
-	margin-top:12970px;
 	z-index:1;
 }
 
