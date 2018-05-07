@@ -18,6 +18,7 @@ var two = "<h1 id='two'>2</h1>";
 var one = "<h1 id='one'>1</h1>";
 var gorocket = "<h1 id='gorocket'>GO!</h1>";
 
+$('body').append(smoke3);
 
 $(document).ready(function() {
 $( "#bottom" ).click(function() {
@@ -57,9 +58,6 @@ setTimeout(function() {
   setTimeout(function() {
   $('body').append(puff1a);
 }, 1100);
-
-
-  $('body').append(smoke3);
 
 
   setTimeout(function() {
