@@ -4,14 +4,14 @@ html{
 body {
   /*background: url() no-repeat;*/
   /*background-color:black;*/
-  background:url(https://i.imgur.com/oMH4ioK.jpg) center top;
-  background-size: 1260px;
-  background-repeat: no-repeat;
-	width:900px;
+  	background:url(https://i.imgur.com/oMH4ioK.jpg) center top;
+  	background-size: 1260px;
+  	background-repeat: no-repeat;
+	/*width:900px;*/
   	height: 13180px;
   	margin: 0 auto;
-  position:relative;
-  overflow-y: hidden;
+  	position:relative;
+  	overflow-y: hidden;
 }
 
 @font-face {
