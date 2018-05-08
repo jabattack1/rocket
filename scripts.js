@@ -91,7 +91,7 @@ setInterval(smokes, 1000);
 }, 16500);
     setTimeout(function() {
   $('body').append(relaunch);
-}, 17000);
+}, 17500);
 
 }, 3000);
 });
