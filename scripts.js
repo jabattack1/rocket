@@ -76,7 +76,7 @@ setInterval(smokes, 1000);
   setTimeout(function() {
   $('#smoke1').hide();
   $('#smoke3').hide();
-}, 13700);
+}, 13900);
 
   setTimeout(function() {
   $('body').append(retro);
