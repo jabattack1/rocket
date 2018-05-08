@@ -112,7 +112,7 @@ body {
 	height:700px;
 	margin-left:600px;
 	margin-top:-300px;
-	overflow: scroll;
+	overflow:hidden;
 }
 
 #puff4 {
@@ -156,6 +156,29 @@ body {
 	position:absolute;
 	margin-top:0px;
 }*/
+
+#relaunch {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 30px;
+	margin-left:-100px;
+	margin-top:250px;
+	color:#FF00B6;
+	text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff; 
+}
+
+#relaunch:hover {
+	color:white;
+	text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
 
 #retro {
 	position:absolute;

@@ -12,6 +12,8 @@ var puff1a ="<img src='https://i.imgur.com/1ro8Amq.png' title='source: imgur.com
 var retro = "<h1 id='retro'>Retro</h1>";
 var space = "<h1 id='space'>Space</h1>";
 var rocket = "<h1 id='rocketword'>Rocket!!</h1>";
+var relaunch = "<a id='relaunch' href='/'>Press To Relaunch</a>";
+
 
 var three = "<h1 id='three'>3</h1>";
 var two = "<h1 id='two'>2</h1>";
@@ -84,9 +86,12 @@ setInterval(smokes, 1000);
     setTimeout(function() {
   $('body').append(space);
 }, 15800);
-      setTimeout(function() {
+    setTimeout(function() {
   $('body').append(rocket);
 }, 16500);
+    setTimeout(function() {
+  $('body').append(relaunch);
+}, 17000);
 
 }, 3000);
 });
