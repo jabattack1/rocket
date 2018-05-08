@@ -164,6 +164,7 @@ body {
 	margin-left:-100px;
 	margin-top:250px;
 	color:#FF00B6;
+	text-decoration: none;
 	text-shadow:
     -1px -1px 0 #ffffff,
     1px -1px 0 #ffffff,
@@ -173,11 +174,12 @@ body {
 
 #relaunch:hover {
 	color:white;
+	text-decoration: none;
 	text-shadow:
-    -1px -1px 0 #000000,
-    1px -1px 0 #000000,
-    -1px 1px 0 #000000,
-    1px 1px 0 #000000;
+    -1px -1px 0 #FF00B6,
+    1px -1px 0 #FF00B6,
+    -1px 1px 0 #FF00B6,
+    1px 1px 0 #FF00B6;
 }
 
 #retro {
