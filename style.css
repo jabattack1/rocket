@@ -1,6 +1,11 @@
 html{
 }
 
+img {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
 body {
   /*background: url() no-repeat;*/
   /*background-color:black;*/
@@ -36,18 +41,36 @@ body {
 
 #smoke3 {
 	position:fixed;
-	top: 25%;
-	height:430px;
-	width:180px;
+	top: 560px;
+	height:130px;
+	width:190px;
 	margin-left:340px;
 	/*margin-top:150px;*/
 	margin-bottom:auto;
 	z-index:2;
 }
 
+#smoke1 {
+	position:fixed;
+	top: 580px;
+	height:130px;
+	width:190px;
+	margin-left:340px;
+	/*margin-top:150px;*/
+	margin-bottom:auto;
+	z-index:2;
+}
+
+.content {
+ display: none;   
+}
+.content.visible {
+ display: block;   
+}
+
 #rocket {
 	position:fixed;
-	top: 25%;
+	top: 162px;
 	height:430px;
 	width:180px;
 	margin-left:340px;
@@ -127,16 +150,6 @@ body {
 	margin-top:12920px;
 	z-index:4;
 }
-
-#smoke4 {
-	position:absolute;
-	width:400px;
-	height:100px;
-	margin-left:230px;
-	margin-top:12970px;
-	z-index:1;
-}
-
 
 
 /*#top{

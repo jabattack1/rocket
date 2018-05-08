@@ -1,7 +1,8 @@
 console.log('launch!')
 
-var smoke4 ="<img src='https://i.imgur.com/DJIROws.png' title='source: imgur.com'  class='animated fadeIn' id='smoke4'>";
-var smoke3 ="<img src='https://i.imgur.com/RRK2seF.png' title='source: imgur.com' class='animated fadeIn' id='smoke3'>";
+var smoke1 ="<img src='https://i.imgur.com/XW9R7PM.png' title='source: imgur.com'  class='content' id='smoke1'>";
+// var smoke4 ="<img src='https://i.imgur.com/DJIROws.png' title='source: imgur.com'  class='content' id='smoke4'>";
+var smoke3 ="<img src='https://i.imgur.com/RRK2seF.png' title='source: imgur.com' class='content visible' id='smoke3'>";
 var puff4 ="<img src='https://i.imgur.com/gSQAN2b.png' title='source: imgur.com'  id='puff4'>";
 var puff3 ="<img src='https://i.imgur.com/MEM4cjk.png' title='source: imgur.com'  id='puff3'>";
 var puff2 ="<img src='https://i.imgur.com/KSouGOB.png' title='source: imgur.com'  id='puff2'>";
@@ -20,9 +21,15 @@ var gorocket = "<h1 id='gorocket'>GO!</h1>";
 
 $(document).ready(function() {
 
+function smokes() {
+    $('.content').toggleClass('visible');
+}
+
+
+
+
 $( "#bottom" ).click(function() {
   console.log("CLICK!");
-  $('body').append(smoke3);
   $('body').children("#go").remove();
   $('body').append(three);
    setTimeout(function() {
@@ -37,7 +44,12 @@ $( "#bottom" ).click(function() {
    	$("body").children("#one").remove();
   $('body').append(gorocket);
 }, 3000);
-
+ setTimeout(function() {
+  $('body').append(smoke1);
+}, 5000);
+  setTimeout(function() {
+  $('body').append(smoke3);
+}, 5000);
 
 setTimeout(function() {
 
@@ -59,6 +71,12 @@ setTimeout(function() {
   $('body').append(puff1a);
 }, 1100);
 
+setInterval(smokes, 1000);
+
+  setTimeout(function() {
+  $('#smoke1').hide();
+  $('#smoke3').hide();
+}, 13700);
 
   setTimeout(function() {
   $('body').append(retro);
