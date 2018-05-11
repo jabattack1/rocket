@@ -15,6 +15,8 @@ var rocket = "<h1 id='rocketword'>Rocket!!</h1>";
 var relaunch = "<a id='relaunch' href='/'>Press To Relaunch</a>";
 
 var logoB= "<img src='https://i.imgur.com/Ry3fAaR.png' title='source: imgur.com'  id='logoBottom'>"
+var logoT= "<img src='https://i.imgur.com/Ry3fAaR.png' title='source: imgur.com'  id='logoTop'>"
+
 var three = "<h1 id='three'>3</h1>";
 var two = "<h1 id='two'>2</h1>";
 var one = "<h1 id='one'>1</h1>";
@@ -92,6 +94,9 @@ setInterval(smokes, 1000);
 }, 16500);
     setTimeout(function() {
   $('body').append(relaunch);
+}, 17500);
+    setTimeout(function() {
+  $('body').append(logoT);
 }, 17500);
 
 }, 3000);

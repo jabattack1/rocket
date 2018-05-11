@@ -231,6 +231,17 @@ body {
     width:300px;
 }
 
+#logoTop {
+	position:absolute;
+	font-family: 'sabo';
+	/*font-size: 280px;*/
+	margin-left:-95px;
+	margin-top:250px;
+    z-index: 7;
+    width:300px;
+}
+
+
 #three {
 	position:absolute;
 	font-family: 'sabo';
