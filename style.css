@@ -221,6 +221,15 @@ body {
     1px 1px 0 #ffffff; 
 }
 
+#logoBottom {
+	position:absolute;
+	font-family: 'sabo';
+	/*font-size: 280px;*/
+	margin-left:190px;
+	margin-top:12550;
+    z-index: 7;
+}
+
 #three {
 	position:absolute;
 	font-family: 'sabo';
