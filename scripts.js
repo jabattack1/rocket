@@ -23,6 +23,7 @@ var gorocket = "<h1 id='gorocket'>GO!</h1>";
 
 $(document).ready(function() {
 
+$('body').append(logoB);
 function smokes() {
     $('.content').toggleClass('visible');
 }
