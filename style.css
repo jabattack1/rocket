@@ -162,6 +162,7 @@ body {
 #relaunch {
 	position:absolute;
 	font-family: 'sabo';
+	white-space: nowrap;
 	font-size: 30px;
 	margin-left:550px;
 	margin-top:510px;
