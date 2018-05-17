@@ -1,5 +1,9 @@
 console.log('launch!')
 
+$(window).load(function(){
+     $('.loader').fadeOut();
+});
+
 var smoke1 ="<img src='https://i.imgur.com/XW9R7PM.png' title='source: imgur.com'  class='content' id='smoke1'>";
 // var smoke4 ="<img src='https://i.imgur.com/DJIROws.png' title='source: imgur.com'  class='content' id='smoke4'>";
 var smoke3 ="<img src='https://i.imgur.com/RRK2seF.png' title='source: imgur.com' class='content visible' id='smoke3'>";
