@@ -21,6 +21,20 @@ body {
 
 }
 
+#page-wrap {
+  /*font-family: Georgia, serif;*/
+  /*background-position: center;*/
+  /*background-attachment:scroll;*/
+  /*overflow-x: hidden;*/
+  /*position: fixed;*/
+  	margin: 50% 50%;
+  	width:900px;
+  	height: 630px;
+  	position:relative;
+     /*width: 900px;*/
+     /*margin: 0 auto;*/
+}
+
 @font-face {
     font-family: 'sabo'; /*a name to be used later*/
     src: url(./images/Sabo-Filled.otf); /*URL to font*/
@@ -72,7 +86,7 @@ body {
 
 #rocket {
 	position:fixed;
-	top: 80%;
+	top: 146;
 	height:430px;
 	width:180px;
 	margin-left:340px;
