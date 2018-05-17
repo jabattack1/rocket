@@ -1,7 +1,14 @@
 console.log('launch!')
 
+
+   
+    $("body").children("#three").remove();
+  $('body').append(two);
+
 $(window).load(function(){
-     $('.loader').fadeOut();
+    setTimeout(function() {
+      $('.loader').fadeOut();
+    }, 2000);
 });
 
 var smoke1 ="<img src='https://i.imgur.com/XW9R7PM.png' title='source: imgur.com'  class='content' id='smoke1'>";
