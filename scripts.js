@@ -25,7 +25,7 @@ var space = "<h1 id='space'>Space</h1>";
 var rocket = "<h1 id='rocketword'>Rocket!!</h1>";
 var relaunch = "<a id='relaunch' href='/'>Press To Relaunch</a>";
 
-var logoB= "<img src='https://i.imgur.com/Ry3fAaR.png' title='source: imgur.com'  id='logoBottom'>"
+// var logoB= "<img src='https://i.imgur.com/Ry3fAaR.png' title='source: imgur.com'  id='logoBottom'>"
 var logoT= "<img src='https://i.imgur.com/Ry3fAaR.png' title='source: imgur.com'  id='logoTop'>"
 
 var three = "<h1 id='three'>3</h1>";
@@ -36,7 +36,7 @@ var gorocket = "<h1 id='gorocket'>GO!</h1>";
 
 $(document).ready(function() {
 
-$('body').append(logoB);
+// $('body').append(logoB);
 function smokes() {
     $('.content').toggleClass('visible');
 }
