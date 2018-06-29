@@ -2,8 +2,8 @@ console.log('launch!')
 
 
    
-    $("body").children("#three").remove();
-  $('body').append(two);
+$("body").children("#three").remove();
+$('body').append(two);
 
 $(window).load(function(){
     setTimeout(function() {
@@ -26,7 +26,7 @@ var rocket = "<h1 id='rocketword'>Rocket!!</h1>";
 var relaunch = "<a id='relaunch' href='/'>Press To Relaunch</a>";
 
 // var logoB= "<img src='https://i.imgur.com/Ry3fAaR.png' title='source: imgur.com'  id='logoBottom'>"
-var logoT= "<img src='https://i.imgur.com/Ry3fAaR.png' title='source: imgur.com'  id='logoTop'>"
+// var logoT= "<img src='https://i.imgur.com/Ry3fAaR.png' title='source: imgur.com'  id='logoTop'>"
 
 var three = "<h1 id='three'>3</h1>";
 var two = "<h1 id='two'>2</h1>";
@@ -48,70 +48,74 @@ $( "#bottom" ).click(function() {
   console.log("CLICK!");
   $('body').children("#go").remove();
   $('body').append(three);
-   setTimeout(function() {
-   	$("body").children("#three").remove();
+setTimeout(function() {
+  $("body").children("#three").remove();
   $('body').append(two);
 }, 1000);
-   setTimeout(function() {
-   	$("body").children("#two").remove();
+setTimeout(function() {
+   $("body").children("#two").remove();
   $('body').append(one);
 }, 2000);
-   setTimeout(function() {
-   	$("body").children("#one").remove();
+setTimeout(function() {
+  $("body").children("#one").remove();
   $('body').append(gorocket);
 }, 3000);
- setTimeout(function() {
+setTimeout(function() {
   $('body').append(smoke1);
 }, 5000);
-  setTimeout(function() {
+setTimeout(function() {
   $('body').append(smoke3);
 }, 5000);
 
-setTimeout(function() {
 
+
+setTimeout(function() {
   $('body').append(puff4);
 
- setTimeout(function() {
-  $('body').append(puff1);
-}, 900);
+  setTimeout(function() {
+    $('body').append(puff1);
+  }, 900);
 
   setTimeout(function() {
-  $('body').append(puff2);
-}, 840);
+    $('body').append(puff2);
+  }, 840);
 
 //   setTimeout(function() {
 //   $('body').append(smoke3);
 // }, 740);
 
   setTimeout(function() {
-  $('body').append(puff1a);
-}, 1100);
+    $('body').append(puff1a);
+  }, 1100);
 
-setInterval(smokes, 1000);
-
-  setTimeout(function() {
-  $('#smoke1').hide();
-  $('#smoke3').hide();
-}, 13900);
+  setInterval(smokes, 1000);
 
   setTimeout(function() {
-  $('body').append(retro);
-}, 15100);
-    setTimeout(function() {
-  $('body').append(space);
-}, 15800);
-    setTimeout(function() {
-  $('body').append(rocket);
-}, 16500);
-    setTimeout(function() {
-  $('body').append(relaunch);
-}, 17500);
-    setTimeout(function() {
-  $('body').append(logoT);
-}, 17500);
+    $('#smoke1').hide();
+    $('#smoke3').hide();
+  }, 13900);
 
-}, 3000);
-});
+  setTimeout(function() {
+    $('body').append(retro);
+  }, 15100);
+
+  setTimeout(function() {
+    $('body').append(space);
+  }, 15800);
+
+  setTimeout(function() {
+    $('body').append(rocket);
+  }, 16500);
+
+  setTimeout(function() {
+    $('body').append(relaunch);
+  }, 17500);
+//     setTimeout(function() {
+//   $('body').append(logoT);
+// }, 17500);
+
+    }, 3000);
+  });
 });
 
 
