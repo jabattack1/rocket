@@ -35,6 +35,9 @@ var gorocket = "<h1 id='gorocket'>GO!</h1>";
 
 
 $(document).ready(function() {
+if ('scrollRestoration' in history) {
+  history.scrollRestoration = 'manual';
+}
 
 // $('body').append(logoB);
 function smokes() {
