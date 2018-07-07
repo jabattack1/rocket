@@ -55,6 +55,15 @@ body {
     1px 1px 0 #ffffff; 
 }
 
+#crowd {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 50px;
+	margin-left:20px;
+	margin-top:13050px;
+	width:60px;	
+}
+
 #smoke3 {
 	position:fixed;
 	top: 560px;
@@ -96,6 +105,15 @@ body {
 }
 
 #birds {
+	position:absolute;
+	/*margin-top:-100px;*/
+  	left: 500px;
+  	height:40px;
+  	width:70px;
+  	z-index:1;
+}
+
+#birds1 {
 	position:absolute;
 	/*margin-top:-100px;*/
   	left: 500px;
