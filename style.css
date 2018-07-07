@@ -55,11 +55,38 @@ body {
     1px 1px 0 #ffffff; 
 }
 
+#crowd0 {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 50px;
+	margin-left:70px;
+	margin-top:13035px;
+	width:80px;	
+}
+
 #crowd {
 	position:absolute;
 	font-family: 'sabo';
 	font-size: 50px;
 	margin-left:-10px;
+	margin-top:13035px;
+	width:80px;	
+}
+
+#crowd1 {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 50px;
+	margin-left:-80px;
+	margin-top:13035px;
+	width:80px;	
+}
+
+#crowd2 {
+	position:absolute;
+	font-family: 'sabo';
+	font-size: 50px;
+	margin-left:-160px;
 	margin-top:13035px;
 	width:80px;	
 }
